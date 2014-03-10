@@ -2,7 +2,7 @@
   "name": "atom-jinja2",
   "version": "0.3.1",
   "private": true,
-  "description": "A short description of your package",
+  "description": "Syntax highlighting for jinja2 templates.",
   "repository": "https://github.com/danielchatfield/atom-jinja2",
   "license": "MIT",
   "engines": {
