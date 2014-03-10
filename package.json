@@ -1,6 +1,6 @@
 {
   "name": "atom-jinja2",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "description": "A short description of your package",
   "repository": "https://github.com/danielchatfield/atom-jinja2",
