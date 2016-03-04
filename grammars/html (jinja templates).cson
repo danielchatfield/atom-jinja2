@@ -1,4 +1,5 @@
 'fileTypes': [
+  'html.j2',
   'jinja2',
   'j2'
 ]
