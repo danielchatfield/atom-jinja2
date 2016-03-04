@@ -15,4 +15,4 @@
     'include': 'text.generic-config'
   }
 ]
-'scopeName': 'source.generic-config.jinja'
+'scopeName': 'text.generic-config.jinja'

@@ -15,4 +15,4 @@
     'include': 'text.xml'
   }
 ]
-'scopeName': 'source.xml.jinja'
+'scopeName': 'text.xml.jinja'
