@@ -1,4 +1,5 @@
 'fileTypes': [
+  'jinja',
   'jinja2',
   'j2'
 ]
