@@ -1,0 +1,18 @@
+'fileTypes': [
+  'md.j2',
+  'markdown.j2',
+  'jinja',
+  'jinja2',
+  'j2'
+]
+'firstLineMatch': '^{% extends ["\'][^"\']+["\'] %}'
+'name': 'Markdown (Jinja Templates)'
+'patterns': [
+  {
+    'include': 'source.jinja'
+  }
+  {
+    'include': 'source.gfm'
+  }
+]
+'scopeName': 'source.gfm.jinja'
