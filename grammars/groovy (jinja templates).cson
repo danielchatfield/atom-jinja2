@@ -1,0 +1,16 @@
+'fileTypes': [
+  'groovy.j2',
+  'jinja2',
+  'j2'
+]
+'firstLineMatch': '^{% extends ["\'][^"\']+["\'] %}'
+'name': 'Groovy (Jinja Templates)'
+'patterns': [
+  {
+    'include': 'source.jinja'
+  }
+  {
+    'include': 'source.groovy'
+  }
+]
+'scopeName': 'source.groovy.jinja'
