@@ -1,0 +1,37 @@
+'fileTypes': [
+  'json.j2',
+  'jinja2',
+  'j2'
+]
+'firstLineMatch': '^{% extends ["\'][^"\']+["\'] %}'
+'name': 'JSON (Jinja Templates)'
+'patterns': [
+    {
+        'begin': '"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end'
+        'name': 'string.quoted'
+        'patterns':[
+            {
+                'include': 'source.jinja'
+            }
+        ]
+    }
+    {
+        'match': '[-]?[0-9]+[.]?[0-9]*'
+        'name': 'constant.numeric'
+    }
+    {
+        'match': 'true|false|none'
+        'name': 'constant'
+    }
+    {
+        'include': 'source.jinja'
+    }
+]
+'scopeName': 'source.json.jinja'
