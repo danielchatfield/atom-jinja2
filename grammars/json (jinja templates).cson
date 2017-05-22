@@ -4,15 +4,34 @@
   'j2'
 ]
 'firstLineMatch': '^{% extends ["\'][^"\']+["\'] %}'
-# 'foldingStartMarker': '(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))'
-# 'foldingStopMarker': '(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})'
 'name': 'JSON (Jinja Templates)'
 'patterns': [
-  {
-    'include': 'source.jinja'
-  }
-  {
-    'include': 'source.json'
-  }
+    {
+        'begin': '"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end'
+        'name': 'string.quoted'
+        'patterns':[
+            {
+                'include': 'source.jinja'
+            }
+        ]
+    }
+    {
+        'match': '[-]?[0-9]+[.]?[0-9]*'
+        'name': 'constant.numeric'
+    }
+    {
+        'match': 'true|false|none'
+        'name': 'constant'
+    }
+    {
+        'include': 'source.jinja'
+    }
 ]
 'scopeName': 'source.json.jinja'
