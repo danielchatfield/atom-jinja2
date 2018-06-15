@@ -36,3 +36,7 @@ Jinja templates for XML files. Also matches `.xml.j2`
 ### "YAML (Jinja Templates)" syntax
 
 Jinja templates for YAML files. Also matches `.yml.j2` & `.yaml.j2`
+
+### "json (Jinja Templates)" syntax
+
+Jinja templates for json files. Also matches `.json.j2`
