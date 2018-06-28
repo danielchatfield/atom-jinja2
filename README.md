@@ -29,6 +29,10 @@ Jinja templates for Python files. Also matches `.py.j2`
 
 Jinja templates for Shell Script files. Also matches `.sh.j2`
 
+### "TOML (Jinja Templates)" syntax
+
+Jinja templates for TOML fils. Also matches `.toml.j2`
+
 ### "XML (Jinja Templates)" syntax
 
 Jinja templates for XML files. Also matches `.xml.j2`

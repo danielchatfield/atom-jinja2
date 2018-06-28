@@ -1,0 +1,18 @@
+'fileTypes': [
+  'toml.j2',
+  'jinja2',
+  'j2'
+]
+'firstLineMatch': '^{% extends ["\'][^"\']+["\'] %}'
+# 'foldingStartMarker': '(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))'
+# 'foldingStopMarker': '(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})'
+'name': 'TOML (Jinja Templates)'
+'patterns': [
+  {
+    'include': 'source.jinja'
+  }
+  {
+    'include': 'source.toml'
+  }
+]
+'scopeName': 'source.toml.jinja'
