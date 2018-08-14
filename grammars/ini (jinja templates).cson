@@ -1,0 +1,14 @@
+'fileTypes': [
+  'ini.j2'
+]
+'firstLineMatch': '^{% extends ["\'][^"\']+["\'] %}'
+'name': 'INI (Jinja Templates)'
+'patterns': [
+  {
+    'include': 'source.jinja'
+  }
+  {
+    'include': 'source.ini'
+  }
+]
+'scopeName': 'source.ini.jinja'

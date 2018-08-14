@@ -3,12 +3,12 @@
 Provides syntax highlighting for jinja2 templates in atom.
 
 
-Adds a "jinja templates" syntax and several combined syntax definintions, for jinja templates which output
+Adds a "jinja templates" syntax and several combined syntax definitions, for jinja templates which output
 different types of file.
 
 ## New Syntax Definintions
 
-In addition to the file extensions below, all syntax definintions also specify `.jinja2` & `.j2`.
+In addition to the file extensions below, all syntax definitions also specify `.jinja2` & `.j2`.
 
 
 ### "HTML (Jinja templates)" syntax
@@ -20,6 +20,12 @@ Jinja templates for HTML files. Also matches `.html.j2`
 Jinja templates for Config files. Also matches `.conf.j2`.
 
 Requires the [language-generic-config](https://atom.io/packages/language-generic-config) package.
+
+### "INI (Jinja Templates)" syntax
+
+Jinja templates for INI files. Also matches `.ini.j2`.
+
+Requires the [language-ini](https://atom.io/packages/language-ini) package.
 
 ### "Python (Jinja Templates)" syntax
 
