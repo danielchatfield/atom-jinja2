@@ -1,0 +1,16 @@
+'fileTypes': [
+  'sls'
+]
+'firstLineMatch': '^{% extends ["\'][^"\']+["\'] %}'
+# 'foldingStartMarker': '(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))'
+# 'foldingStopMarker': '(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})'
+'name': 'SLS (Jinja Templates)'
+'patterns': [
+  {
+    'include': 'source.jinja'
+  }
+  {
+    'include': 'source.yaml'
+  }
+]
+'scopeName': 'source.yaml.jinja'
