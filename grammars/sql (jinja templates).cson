@@ -1,0 +1,16 @@
+'fileTypes': [
+  'sql.j2',
+  'jinja2',
+  'j2'
+]
+'firstLineMatch': '^{% extends ["\'][^"\']+["\'] %}'
+'name': 'SQL (Jinja Templates)'
+'patterns': [
+  {
+    'include': 'source.jinja'
+  }
+  {
+    'include': 'source.sql'
+  }
+]
+'scopeName': 'source.sql.jinja'
