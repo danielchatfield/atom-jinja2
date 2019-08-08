@@ -23,3 +23,6 @@
   'Macro':
     'prefix': 'macro'
     'body': '{% macro ${1:name}(${2:args}) %}\n\t$3\n{% endmacro %}'
+  'Set':
+    'prefix': 'set'
+    'body': '{% set ${1:var} = ${2:expr} %}'
