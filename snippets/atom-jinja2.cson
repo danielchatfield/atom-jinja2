@@ -1,7 +1,7 @@
 '.source.jinja, .text.html.jinja, .text.generic-config.jinja, .source.python.jinja, .source.shell.jinja, .text.xml.jinja, .source.yaml.jinja':
   'Block':
     'prefix': 'block'
-    'body': '{% block ${1:name} %}\n\t$2\n{% endblock %}'
+    'body': '{% block ${1:name} %}\n\t$2\n{% endblock %}{# ${1:name} #}'
   'Complete Block':
     'prefix': '{%'
     'body': '{% $0 %}'
