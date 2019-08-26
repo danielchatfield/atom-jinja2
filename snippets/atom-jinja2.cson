@@ -8,6 +8,9 @@
   'Complete Variable':
     'prefix': '{{'
     'body': '{{ $0 }}'
+  'Todo':
+    'prefix': 'todo'
+    'body': '{# TODO: ${1:message} #}'
   'Extends':
     'prefix': 'extends'
     'body': '{% extends ${1:"${2:template}"} %}'
