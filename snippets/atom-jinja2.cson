@@ -20,6 +20,9 @@
   'If':
     'prefix': 'if'
     'body': '{% if ${1:expr} %}\n\t$2\n{% endif %}'
+  'Do':
+    'prefix': 'do'
+    'body': '{% do ${1:expr} %}'
   'Macro':
     'prefix': 'macro'
     'body': '{% macro ${1:name}(${2:args}) %}\n\t$3\n{% endmacro %}'
